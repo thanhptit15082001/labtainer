@@ -1,5 +1,5 @@
-metaspolit.pdf: metasploit.docx
-	soffice --convert-to pdf metasploit.docx --headless
+backdoor-persistence.pdf: backdoor-persistence.docx
+	soffice --convert-to pdf backdoor-persistence.pdf.docx --headless
 
 clean:
 	rm -fr auto
